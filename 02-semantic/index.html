@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+<style>
+    .star {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-image: url('/a');
+    }
+    .star.dark-star {
+        background-image: url();
+    }
+</style>
+
+    </head>
+    <body>
+
+        <section class="skills-section">
+            <div class="container">
+                <h2></h2>
+                <div></div>
+                <ul>
+                    <li>
+                        <a href=""></a>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="" alt="">
+                            </div>
+                            <div class="skill-title">
+                                Adobe Photoshop
+                            </div>
+                            <div class="skill-rating">
+                                <span class="star dark-star"></span>
+                                <span class="star dark-star"></span>
+                                <span class="star dark-star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/u-58rWdEbSY?si=OQTRzodqA_Ljg-8O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+        <div class="form-wrapper">
+            <form action="#">
+                <fieldset class="gray-bg">
+                    <legend>General information</legend>
+                
+                <input type="password" />
+                <br />
+                <label for="username">Username</label><br />
+                <input
+                    type="text"
+                    name="username"
+                    value="Bob"
+                    id="username"
+                    required
+                />
+                <br />
+                <input
+                    type="email"
+                    name="email"
+                    value="qwe@qwe.qwe"
+                    readonly
+                    placeholder="ex: username@gmail.com"
+                />
+                <br />
+                <input
+                    type="url"
+                    name="site_url"
+                    value="http://google.com"
+                    disabled
+                />
+            </fieldset>
+                <br />
+                <fieldset>
+                    <legend>Other info</legend>
+                    <input type="number" min="10" max="50" name="price" />
+                    <br />
+                    <input type="color" />
+                    <br />
+                    <input type="range" />
+                </fieldset>
+                
+                <br />
+                <fieldset>
+                    <legend>Profession info</legend>
+                    <div>Skills</div>
+                    <label>
+                        <input type="checkbox" name="skills[]" value="html" /> HTML5
+                    </label>
+                    <input
+                        type="checkbox"
+                        name="skills[]"
+                        value="css"
+                        id="skill_css"
+                    />
+                    <label for="skill_css">CSS</label>
+                    <label>
+                        <input type="checkbox" name="skills[]" value="js" />
+                        JavaScript
+                    </label>
+    
+                    <div>Gender</div>
+                    <label>
+                        <input type="radio" name="gender" value="woman" checked />
+                        Woman
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="man" /> Man
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="other" /> Other
+                    </label>
+                    <br /><br />
+                    <label for="drink">Select drink</label>
+                    <select name="drink[]" id="drink" size="6" multiple>
+                        <option value="" disabled selected>
+                            -=Select your drink=-
+                        </option>
+                        <optgroup label="Non alcohol">
+                            <option value="milk">Milk 15%</option>
+                            <option value="wtr">Water</option>
+                        </optgroup>
+                        <optgroup label="Alcohol">
+                            <option value="beer">Beer</option>
+                            <option value="martini">Martini</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                
+                <br />
+                <fieldset>
+                    <legend>Comment</legend>
+                    <textarea name="comment" id="" cols="50" rows="4"></textarea>
+                </fieldset>
+                
+
+                <br /><br />
+                <fieldset>
+                    <legend>Actions</legend>
+                    <button type="submit">SUBMIT</button>
+                    <button type="reset">CANCEL</button>
+                    <button type="button">OK</button>
+                </fieldset>
+                
+            </form>
+        </div>
+
+        <div></div>
+        I'm studying at courses "Web and mobile design 
+        interfaces" in IT-Academy.
+
+        I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
+
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique autem dicta dolorum maiores quod, deleniti, quia necessitatibus atque omnis unde distinctio tempora consequatur et? Omnis sequi aperiam mollitia incidunt vel.
+
+
+        <!-- http://127.0.0.1:5500/index.html?
+username=qwe
+&
+email=qwe%40qwe.qwe
+&
+site_url=
+&
+price= -->
+
+        <iframe src="../01-cv/index.html" width="800" height="400"></iframe>
+    </body>
+</html>
